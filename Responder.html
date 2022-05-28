@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de reclamações</title>
+    <title>Responder</title>
         <!-- CSS - BOOTSTRAP -->
     <link rel="stylesheet" href="public/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -24,23 +24,34 @@
       </ul> 
     </nav>
     <br>
-    <p class="text-brand h5 text-center">LISTA DE RECLAMAÇÕES</p> 
+    <p class="text-brand h5 text-center">RESPONDER</p> 
     <div class="container" style="background-color:#1A7BA3; min-height: 720px;">
         <div class="row" style="margin:auto;">
-          <a href="Responder.html" id="linkcard"><div class="card mx-auto" style="max-width:1000px;" id="cardreclamalista">
-            <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card" style="max-width:1000px;" id="cardreclamalistaresponde">
             <div class="card-body">
-                <h6 class="card-title float-left">Nome:"nome aluno"  </h6>
-                <h6 class="card-title" style="position: absolute; left: 30%;">Ra:</h6>
-                <h6 class="card-title float-right">"Data de envio"</h6>
-                <br>   
-                <p><h6 class="card-title float-left">"Assunto da reclamação"</h6>
-                <h6 class="card-title float-right" >"xx/xx/xxxx ás xx:xx"</h6>
-                  </form> 
+                <h6 class="text-left float-left">Nome:"nome aluno"  </h6>
+                <h6 class="text-left" style="position: absolute; left: 50%;">Ra:</h6>
+                <h6 class="text-right" style="position: absolute; right: 3%;">"Data de envio"</h6>
+                <br>
+                <h6 class="text-left float-left" style="position: absolute; left:1.5%">"Assunto da reclamação"</h6>
+                <h6 class="text-right" style="position: absolute; right:3%">xx/xx/xxxx ás xx:xx"</h6>
+                <br>
+                <hr>
+                <div class="container" style="min-height: 300px;"> <h6 class="text-left">Reclamação</h6></div> 
             </div>
           </div>
-        </a>
           </div>
+          <br>
+          <br>
+          <form>
+            <div class="form-group">
+                <textarea class="form-control" id="Formresponde" rows="6"></textarea>
+              </div>
+            
+            <div class="float-right" style="padding: 3px 10%; ">
+              <button type="submit" class="btn btn-lg" style="position:relative;" id="btnresponder"> <b id="textbtnresp"> ENVIAR RESPOSTA </b></button>
+            </div>
+          </form> 
     <footer>
         <!-- JS -->
         <script src="public/js/jquery.min.js"></script>
