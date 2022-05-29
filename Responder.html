@@ -25,33 +25,45 @@
     </nav>
     <br>
     <p class="text-brand h5 text-center">RESPONDER</p> 
-    <div class="container" style="background-color:#1A7BA3; min-height: 720px;">
-        <div class="row" style="margin:auto;">
+    <div class="container-sm" style="background-color:#1A7BA3; height: 100vh;">
           <div class="card" style="max-width:1000px;" id="cardreclamalistaresponde">
-            <div class="card-body">
-                <h6 class="text-left float-left">Nome:"nome aluno"  </h6>
-                <h6 class="text-left" style="position: absolute; left: 50%;">Ra:</h6>
-                <h6 class="text-right" style="position: absolute; right: 3%;">"Data de envio"</h6>
-                <br>
-                <h6 class="text-left float-left" style="position: absolute; left:1.5%">"Assunto da reclamação"</h6>
-                <h6 class="text-right" style="position: absolute; right:3%">xx/xx/xxxx ás xx:xx"</h6>
-                <br>
+              <div class="card-body">
+                <div class="row justify-content-md-center" style="margin:auto;">
+                  <div class="col col-sm">
+                    <h6 class="text-left"> Nome:"nome aluno"  </h6>
+                  </div>
+                  <div class="col-md-auto">
+                    <h6 class="text-center">Ra:</h6>
+                  </div>
+                  <div class="col-sm">
+                    <h6 class="text-right">"Data de envio"</h6>
+                  </div>           
+               </div>  
+               <div class="row justify-content-md-center" style="margin:auto;">
+                <div class="col col-sm" style="max-width:1000px;">
+                  <h6 class="text-left"> "Assunto da reclamação"  </h6>
+                </div>
+                <div class="col-sm">
+                  <h6 class="text-right">"xx/xx/xxxx ás xx:xx"</h6>
+                </div>
+                  </div>
                 <hr>
-                <div class="container" style="min-height: 300px;"> <h6 class="text-left">Reclamação</h6></div> 
+                <div class="row justify-content-md-center" style="margin:auto; height: 300px;">
+                    <div class="col col-sm" style="max-width:1000px;">
+                      <h6 class="text-left"> "Assunto da reclamação"  </h6>
+                    </div>
+                      </div>
+                </div>
             </div>
-          </div>
-          </div>
-          <br>
-          <br>
-          <form>
+            <br>
+            <br>
             <div class="form-group">
-                <textarea class="form-control" id="Formresponde" rows="6"></textarea>
-              </div>
-            
-            <div class="float-right" style="padding: 3px 10%; ">
-              <button type="submit" class="btn btn-lg" style="position:relative;" id="btnresponder"> <b id="textbtnresp"> ENVIAR RESPOSTA </b></button>
+              <textarea class="form-control" id="Formresponde" rows="6"></textarea>
             </div>
-          </form> 
+            <div class="float-right" style="padding: 1px 10%; ">
+            <button type="submit" class="btn btn-lg" style="position:relative;" id="btnresponder"> <b id="textbtnresp"> ENVIAR RESPOSTA </b></button>
+          </div>
+          </div>
     <footer>
         <!-- JS -->
         <script src="public/js/jquery.min.js"></script>
@@ -59,3 +71,27 @@
     </footer>
 </body>
 </html>
+
+ <!-- <div class="col-sm">
+                <h6 class="text-left float-left">Nome:"nome aluno"  </h6>
+              </div>
+              <div class="col-sm">
+                <h6 class="text-left" style="position: absolute; left: 50%;">Ra:</h6>
+              </div>
+              <div class="col-sm">
+                <h6 class="text-right" style="position: absolute; right: 3%;">"Data de envio"</h6>
+              </div>
+                <br>
+                <h6 class="text-left float-left" style="position: absolute; left:1.5%">"Assunto da reclamação"</h6>
+                <h6 class="text-right" style="position: absolute; right:3%">xx/xx/xxxx ás xx:xx"</h6>
+                <br>
+                <hr>
+                <div class="container" style="min-height: 300px;"> <h6 class="text-left">Reclamação</h6></div> 
+            </div> -->
+
+<!-- 
+            <div class="form-group">
+              <textarea class="form-control" id="Formresponde" rows="6"></textarea>
+            </div>
+          <div class="float-right" style="padding: 3px 10%; ">
+            <button type="submit" class="btn btn-lg" style="position:relative;" id="btnresponder"> <b id="textbtnresp"> ENVIAR RESPOSTA </b></button> -->
